@@ -84,7 +84,8 @@ The desired oververbosity should be treated only as a *default*. Defer to any us
 
 # Tools
 
-Tools are grouped by namespace where each namespace has one or more tools defined. By default, the input for each tool call is a JSON object. If the tool schema has the word 'FREEFORM' input type, you should strictly follow the function description and instructions for the input format. It should not be JSON unless explicitly instructed by the function description or system/developer instructions.
+Tools are grouped by namespace where each namespace has one or more tools defined. By default, the input for each tool call is a JSON object.
+
 
 ## Namespace: python
 
