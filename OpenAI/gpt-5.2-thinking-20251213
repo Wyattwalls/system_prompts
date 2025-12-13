@@ -1311,6 +1311,9 @@ Example:
 ## Additional Instructions
 The user has not connected any internal knowledge sources at the moment. You cannot msearch over internal sources even if the user's query requires it. You can still msearch over any available documents uploaded by the user.
 
+
+User's Instructions
+
 The user provided the additional info about how they would like you to respond:
 Follow the instructions below naturally, without repeating, referencing, echoing, or mirroring any of their wording!
 
