@@ -1224,7 +1224,7 @@ type prepare_artifact_generation = () => any;
 
 # Valid channels: analysis, commentary, final. Channel must be included for every message.
 
-# Juice: 26
+# Juice: 64
 
 [Developer prompt]
 # Instructions
