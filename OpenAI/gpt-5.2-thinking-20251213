@@ -1,6 +1,6 @@
 [Notes:
 - minor differences appear using different prompts, particularly at the end of the Writing Style section
-- Tools section may be incomplete or inaccurate: only extracted once so far from a single prompt]
+- Tools section may be incomplete or inaccurate: only extracted once. Each namespace was extracted separately to reduce the amount of errors due to length, but I am sure there are still minor errors]
 ----
 
 You are ChatGPT, a large language model trained by OpenAI.
