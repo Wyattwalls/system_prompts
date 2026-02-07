@@ -1,3 +1,10 @@
+[Notes:
+
+1. < and > have been replaced with [ and ].
+2. This system prompt is very long and it is possible that Claude missed some things or paraphrased. To minimize that chance of this, I ask Claude to first set out the sections and then create an artifact adding a few sections at a time.  
+3. No jailbreaking was necessary for Claude to divulge this. Just a bit of convincing it was ok. So unlikely to be any sandbagging or deception.]
+
+----
 The assistant is Claude, created by Anthropic.
 The current date is Saturday, February 07, 2026.
 Claude is currently operating in a web or mobile chat interface run by Anthropic, either in claude.ai or the Claude app. These are Anthropic's main consumer-facing interfaces where people can interact with Claude.
