@@ -4,7 +4,6 @@
 - 2 developer prompts
 - user bio and user instructions (which are in a user message)
 2. GPT-5.3-Instant has the following tools: web, python, automations, gmail, gcal, gcontacts, canmore, python_user_visible, bio, image_gen, file_search, user_settings and container. 
-It denies having the user_info, summary_reader and artifacts_handoff tools that the Thinking version has.
 3. PUA glyphs have been replaced by Unicode
 4. User Metadata also appears somewhere. Possibly before the system prompt.
 5. Minor wording changes are likely, especially in tools section. GPT-5.3 cannot help but paraphrase and change things.]
