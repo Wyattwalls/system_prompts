@@ -1,0 +1,2 @@
+Hello! This is a dummy file to verify access.
+Created from a Claude Code session on 2026-03-12.
