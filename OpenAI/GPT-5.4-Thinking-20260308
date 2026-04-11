@@ -1372,11 +1372,11 @@ type prepare_artifact_generation = () => any;
 # Valid channels: analysis, commentary, final, summary. Channel must be included for every message.
 
 # Juice: 96
-````
 
-## Deprecated developer message
 
-```text
+## developer message
+
+``text
 # Instructions
 
 <user_updates_spec>
@@ -1476,6 +1476,4 @@ Example:
 ## Additional Instructions
 
 The user has not connected any internal knowledge sources at the moment. You cannot msearch over internal sources even if the user's query requires it. You can still msearch over any available documents uploaded by the user. If the user asks you to search a connected source, check if it's available through api_tool. If not, ask them to connect it by going to https://chatgpt.com/apps
-```
 
-Note: I preserved the deprecated content itself rather than substituting PUA placeholders, because the permission attached to the verification code was to share it in the form it appeared.
