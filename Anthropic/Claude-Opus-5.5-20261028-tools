@@ -1,0 +1,38 @@
+# Tools available in this session (claude.ai, Claude Opus 5.5, 2026-10-28)
+
+Full JSON schemas are not reproduced here; this lists every tool by name with a condensed description. The Artifact tool description alone is several thousand words.
+
+## Declared up front
+- **Agent** — launch subagents (types: claude, claude-code-guide, Explore, general-purpose, Plan, statusline-setup); background by default.
+- **AskUserQuestion** — 1–4 multiple-choice questions in the UI.
+- **Bash** — run shell commands; background mode available.
+- **Edit / Write / Read / Glob / Grep** — file operations (Read handles images, PDFs, notebooks).
+- **SendUserFile** — deliver files to the user (status: proactive/normal; display: render/attach).
+- **SendUserMessage** — verbatim message to the user mid-task.
+- **Skill** — load a skill's instructions.
+- **TaskCreate / TaskUpdate** — task-list widget.
+- **WebFetch** — fetch a URL already seen in conversation; answers a prompt against it.
+- **WebSearch** — modes "standard" and "extended".
+- **Artifact** — publish/list/read/delete/open/pin/unpin hosted claude.ai artifacts; artifact types (Slides, Docs, Sheets, Design, Whiteboard, Tasks, Design System, Motion, Dashboard); runtime capabilities; asset store; shared database; refuses impersonation/fabricated records.
+- **SearchMcpRegistry / SuggestConnectors** — find and suggest connectors.
+- **SearchPlugins / SuggestPluginInstall / SuggestSkills** — org plugin and skill catalog.
+- **enable__mcp__remote-devices__computer** — turn on computer use on the user's machine.
+- **mcp__claude-code-remote__add_repo** — attach a GitHub repo to the session.
+- **mcp__claude-code-remote__create_trigger** — scheduled tasks (cron or run-once); **send_later** — one-shot reminder back into this session.
+- **mcp__claude_ai__conversation_search / recent_chats / read_conversation** — past chats.
+- **mcp__claude_ai__current_time**
+- **mcp__claude_ai__end_conversation**
+- **mcp__claude_ai__image_search**
+- **mcp__claude_ai__launch_extended_search_task** — Advanced Research ("compass"); only when enabled.
+- **mcp__claude_ai__read_research_report**
+- **mcp__widgets__*** — chart_display_v0, comparison_card_display_v0, featured_card_display_v0, fetch_sports_data, itinerary_display_v0, link_preview_display_v0, message_compose_v1, options_card_display_v0, places_list_display_v0, places_map_display_v0, places_search, product_carousel_display_v0, quiz_display_v0, recipe_display_v0, step_card_display_v0, translation_display_v0, weather_fetch.
+- **propose_skills** — render skill proposals for the user to save.
+- **ToolSearch** — load deferred tool schemas.
+- **mcp__Claude_Docs__batch / guide / update** — Claude Docs connector.
+- **mcp__visualize__read_me / show_widget** — inline SVG/HTML Visualizer (tagged [third_party_mcp_app]).
+
+## Deferred (names only, loaded via ToolSearch)
+ArtifactComments, ArtifactData, CronCreate/Delete/List, DesignSync, EnterPlanMode, EnterWorktree, ExitWorktree, ListAgents, ListConnectors, ListMcpResourcesTool, ListPlugins, ListSkills, Monitor, NotebookEdit, ReadMcpResourceDirTool, ReadMcpResourceTool, ReadNotifications, ReportFindings, ScheduleWakeup, SearchSkills, SendMessage, ShowOnboardingRolePicker, TaskGet, TaskList, TaskStop; Claude_Docs create/delete/export/query/read; Gmail (~30 tools: search, read, draft, send, reply, forward, labels, spam, trash); Google Drive (copy, create, download, metadata, permissions, list, read, search, share, trash, update); Google Sheets (append, clear, copy sheet, get, insert dimension, update formulas/values/spreadsheet); Spotify (generate_playlist, get_currently_playing, search, save/remove library); claude-code-remote (delete/fire/list/update trigger, list_repos); claude-in-chrome (~22 browser tools); remote-devices: Claude_Browser (~17), blender (~9), brave-search, device_bash, device_list_dir, device_request_delete_permission, device_request_folder_access, everart generate_image, filesystem (~14), get_device_info, list_legacy_live_artifacts, unityMCP (~40), and (after linking) ~45 computer_* desktop-control tools.
+
+## Skills listed
+docx, pdf, pptx, xlsx, product-self-knowledge, frontend-design, file-reading, pdf-reading, built-in-browser, chrome-browser, computer-use, deep-research, docs, google-workspace, import-memory, morning, skill-creator, setup-claude, artifact-design, artifact-capabilities. (A later linked-device reminder also listed dataviz, artifact-diagramming, cowork-plugin, explain-usage, claude-in-chrome, plugin-authoring.)
